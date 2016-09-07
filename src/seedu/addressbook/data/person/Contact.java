@@ -1,6 +1,6 @@
 package seedu.addressbook.data.person;
 
-public class Contact {
+public abstract class Contact {
 	private boolean isPrivate;
 	public final String value;
 	public Contact(String contact,boolean isPrivate){
